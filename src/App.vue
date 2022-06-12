@@ -48,4 +48,11 @@ nav a.router-link-exact-active {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.h-6 {
+  height: 20px;
+}
+.w-6 {
+  width: 20px;
+}
 </style>

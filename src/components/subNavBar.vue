@@ -3,9 +3,14 @@
     <nav class="navbar d-flex bg-subnav w-100">
       <div
         class="text-white d-flex align-content-center"
-        v-if="this.$route.name === 'order' || this.$route.name === 'configure'"
+        v-if="
+          $route.name === 'order' ||
+          $route.name === 'configure' ||
+          $route.name === 'desktop4' ||
+          $route.name === 'checkout'
+        "
       >
-        <div class="cursor-pointer">
+        <div class="cursor-pointer" @click="$router.go(-1)">
           <svg
             width="24"
             height="24"
@@ -24,7 +29,11 @@
         </div>
         <span class="d-inline-block ms-2">Create a new order</span>
         <span
-          v-if="this.$route.name === 'configure'"
+          v-if="
+            $route.name === 'configure' ||
+            $route.name === 'desktop4' ||
+            $route.name === 'checkout'
+          "
           class="d-inline-block ms-2"
           >2 of 3</span
         >

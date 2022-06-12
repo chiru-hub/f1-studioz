@@ -3,6 +3,8 @@ import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 import Order from "../views/Order.vue"
 import Configure from "../views/Configure.vue"
+import Desktop4 from "../views/Desktop4.vue"
+import Checkout from "../views/Checkout.vue"
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: "/configure",
     name: "configure",
     component: Configure,
+  },
+  {
+    path: "/desktop4",
+    name: "desktop4",
+    component: Desktop4,
+  },
+  {
+    path: "/checkout",
+    name: "checkout",
+    component: Checkout,
   },
 ]
 
