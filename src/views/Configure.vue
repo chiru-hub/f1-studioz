@@ -40,6 +40,14 @@
           </div>
         </div>
       </div>
+      <div class="w-100 d-flex justify-content-end">
+        <button
+          class="py-1 px-2 rounded text-white btn-bg"
+          @click="$router.push('/desktop4')"
+        >
+          CONFIGURE
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -108,5 +116,9 @@ export default {
   .configure-form select {
     width: 100%;
   }
+}
+
+.btn-bg {
+  background: #66332b;
 }
 </style>

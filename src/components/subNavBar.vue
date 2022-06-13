@@ -38,9 +38,9 @@
           >2 of 3</span
         >
       </div>
-      <div class="d-flex justify-content-center" v-else>
-        <button class="text-white bg-subnav">CARTS</button>
-        <button class="text-white bg-subnav ms-5">FAVORITES</button>
+      <div class="d-flex justify-content-center w-100" v-else>
+        <div class="text-white bg-subnav">CARTS</div>
+        <div class="text-white bg-subnav ms-5">FAVORITES</div>
       </div>
     </nav>
   </div>
