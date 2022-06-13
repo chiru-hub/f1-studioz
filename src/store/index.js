@@ -12,6 +12,7 @@ export default new Vuex.Store({
         shippingPoint: "Russia Plant",
         createdBy: "Manoj Bajpayee",
         expiry: "Expires in 6 days",
+        cartNo: "#70452444",
       },
       {
         productInformation:
@@ -20,6 +21,7 @@ export default new Vuex.Store({
         shippingPoint: "Russia Plant",
         createdBy: "Steve Benneth...",
         expiry: "Expires in 4 days",
+        cartNo: "#70452444",
       },
     ],
     activeCarts2: [
@@ -29,6 +31,7 @@ export default new Vuex.Store({
         shippingPoint: "Russia Plant",
         createdBy: "Manoj Bajpayee",
         expiry: "Expires in 6 days",
+        cartNo: "#70452444",
       },
       {
         productInformation:
@@ -37,6 +40,7 @@ export default new Vuex.Store({
         shippingPoint: "Russia Plant",
         createdBy: "Steve Benneth...",
         expiry: "Expires in 4 days",
+        cartNo: "#70452444",
       },
     ],
     layoutOptions: {},
